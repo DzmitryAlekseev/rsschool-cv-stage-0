@@ -5,16 +5,19 @@
 #### Phone: +48690410321
 #### Email: dmitry.alekseyeu.s@gmail.com
 #### Telegram: @dzmitry_as
-[Linkedin][https://www.linkedin.com/in/dzmitry-aliakseyeu-16a388234/]
+[Linkedin][https://www.linkedin.com/in/dzmitry-aliakseyeu-16a388234/];
+
 ***
 ## About myself
 I have good communicative qualities, great teamwork. I like to develop myself. I assume that JS courses help me with this. Mastering new knowledge can help you get a new profession.
+
 ***
 ## Skills
 * HTML
 * CSS(BEM)
 * JS(Basic)
 * Figma
+
 ***
 ## Code Examples
 
@@ -26,11 +29,13 @@ function minMax(arr){
 }
 
 ```
+
 ***
 ## Education
 * Private Institute of Management and Entrepreneurship (lawyer);
 * IT Academy (HTML,CSS,JS);
 * RS School (in process...);
+
 ***
 ## Languages
 * Russian - Native;
