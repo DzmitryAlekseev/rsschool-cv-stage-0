@@ -5,7 +5,6 @@
 #### Phone: +48690410321
 #### Email: dmitry.alekseyeu.s@gmail.com
 #### Telegram: @dzmitry_as
-[LinkedIn] (https://www.linkedin.com/in/dzmitry-aliakseyeu/)
 
 ***
 ## About myself
