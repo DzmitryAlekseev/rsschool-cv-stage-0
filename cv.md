@@ -26,3 +26,17 @@ function minMax(arr){
 }
 
 ```
+***
+## Education
+* Private Institute of Management and Entrepreneurship (lawyer);
+* IT Academy (HTML,CSS,JS);
+* RS School (in process...);
+***
+## Languages
+* Russian - Native;
+* Belarussian - B2;
+* English - B1;
+* Polish - A1;
+
+
+
