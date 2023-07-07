@@ -1,5 +1,5 @@
+# rsschool-cv
 
-https://DzmitryAlekseev.github.io/rsschool-cv/
+https://dzmitryalekseev.github.io/rsschool-cv/cv
 
-https://DzmitryAlekseev.github.io/rsschool-cv/rsschool-cv-html/index.html
-
+https://dzmitryalekseev.github.io/rsschool-cv/
