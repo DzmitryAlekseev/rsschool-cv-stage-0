@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,100;1,200&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../rsschool-cv-stage-0/css/style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <div class="logo__container">
+            <div class="logo">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="logo"  height="32">
+            </div>
+    
+            <q>Pay it forward</q>
+        </div>
+    </header>
+    
+    <main>
+        <aside class="container__information">
+            <div class="avatar">
+                <img src="../rsschool-cv-stage-0/img/my_photo.png" alt="foto__avatar">
+            </div>
+           
+            <section class="information__name">
+                <h1>Aliakseyeu Dzmitry</h1>
+               
+            </section>
+
+            <section class="information__job-position">
+                <h2>Junior Frontend Developer</h2>
+            </section>
+
+            <div class="information__brief">
+                <article class="brief__contacts ">
+                    <h3 class="brief__title">CONTACTS</h3>
+                    <ul>
+                        <li class="contacts__phone"><a href="tel:+48690410321">(+48) 690 410 321</a></li>
+                        <li class="contacts__email"><a href="mailto:Dmitry.alekseev.s@gmail.com">dmitry.alekseev.s@gmail.com</a></li>
+                        <li class="contacts__skype"><a href="skype:live:.cid.58df62cb214759e2">Skype</a></li>
+                        <li class="contacts__linkedin"><a href="https://www.linkedin.com/in/dzmitry-aliakseyeu-16a388234/">linkedin</a></li>
+                    </ul>
+                </article>
+
+                <article class="brief__skills brief">
+                    <h3 class="brief__title">SKILLS</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript(Basic)</li>
+                        <li>Git</li>
+                        <li>Figma</li>
+                    </ul>
+                </article>
+
+                <article class="brief__languages brief">
+                    <h3 class="brief__title">LANGUAGES</h3>
+                    <ul>
+                        <li>English (Intermediate)</li>
+                        <li>Russian (Native)</li>
+                        <li>Belarusian(Intermediate)</li>
+                        <li>Poland(Basic)</li>
+                    </ul>
+                </article>
+            </div>
+            
+        </aside>
+
+        <div class="container__description">
+            <article>
+                <h3 class="description__title">About me</h3>
+                <p class="description__information">I have good communicative qualities, great teamwork. I like to develop myself. I assume that JS courses help me with this. Mastering new knowledge can help you get a new profession.</p>
+            </article>
+
+            <article>
+                <h3 class="description__title">Education</h3>
+                <ul class="description__information_list">
+                    <li>Private Institute of Management and Entrepreneurship</li>
+                    <li>Faculty of Law</li>
+                    <li>Year of ending: 2020</li>
+                    <li>Specialization: 
+                        Legal support of business</li>
+                    <li>Degree: Bachelor's</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3 class="description__title">Courses</h3>
+                <ul class="description__information_list">
+                    <li>IT Academy (Minsk), 2022 &#8212; Creation of websites and web applications with HTML, CSS, JS</li>
+                    <li>Udemy, 2022 &#8212; HTML, CSS, JS</li>
+                    <li>RS Schools &#171;JavaScript/Front-end. Stage 0&#187;</li>
+                </ul>
+            </article>
+
+            <article class="description__code-example">
+                <h3 class="description__title">Code example</h3>
+                <p><span>Task:</span> In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.</p>
+             
+            <p>
+                <code> 
+                    function highAndLow(numbers){<br>
+                        let arr = numbers.split(' ');<br>
+                        arr = arr.map(items =&gt; Number(items))<br>
+                        <br>
+                        arr = arr.sort(function(a, b){<br>
+                            if (a &gt; b) return -1;<br>
+                            if (a == b) return 0;<br>
+                            if (a &lt; b) return 1<br>
+                        })<br>
+                        <br>
+                        return arr[0] + ' ' + arr[arr.length-1];<br>
+                    }<br>
+                </code>
+            </p>
+            </article>
+
+            <article>
+                <h3 class="description__title">My projects</h3>
+                <ul class="description__myprojects">
+                    <li><a href="https://dzmitryalekseev.github.io/valoshki-by.github.io/">Project Valoshki.by, 2022 (Click)</a></li>
+                </ul>
+            </article>
+
+            
+        </div>
+       
+    </main>
+
+    <footer>
+        <div class="logo__container">
+            <div class="logo">
+                <a href="https://rs.school/js/"> <img src="https://rs.school/images/rs_school_js.svg" alt="logo"  height="32"></a>
+              
+            </div>
+
+            <p>2023</p>
+
+            <ul class="git">
+                <li class="git__logo"><a href="https://github.com/DzmitryAlekseev">My GitHub account</a></li>
+            </ul>
+        </div>
+    </footer>
+           
+
+    
+</body>
+</html>
